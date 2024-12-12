@@ -6,7 +6,7 @@ members = [
 resolver = "2"
 
 [workspace.package]
-version = "0.2.1"
+version = "2.0.18"
 description = "Fast path to receive shreds from Jito, forwarding to local consumers. See https://jito-labs.gitbook.io/mev/searcher-services/shredstream for details."
 authors = ["Jito Team <team@jito.wtf>"]
 homepage = "https://jito.wtf/"
@@ -33,12 +33,12 @@ rand = "0.8"
 reqwest = { version = "0.11", features = ["blocking", "json"] }
 serde_json = "1"
 signal-hook = "0.3"
-solana-client = "2.0.16"
-solana-metrics = "2.0.16"
-solana-net-utils = "2.0.16"
-solana-perf = "2.0.16"
-solana-sdk = "2.0.16"
-solana-streamer = "2.0.16"
+solana-client = "2.0.18"
+solana-metrics = "2.0.18"
+solana-net-utils = "2.0.18"
+solana-perf = "2.0.18"
+solana-sdk = "2.0.18"
+solana-streamer = "2.0.18"
 thiserror = "1"
 tokio = "1"
 tonic = { version = "0.10", features = ["tls", "tls-roots", "tls-webpki-roots"] }
